@@ -1,0 +1,26 @@
+{
+  "name": "package",
+  "version": "1.0.0",
+  "description": "Learn Node.js\r Execution JS côté serveur avec moteur JS V8 de Chrome\r Execution en single Thread uniquement\r Archi asynchrone + approche par event",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BgrDr0p/Node.js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BgrDr0p/Node.js/issues"
+  },
+  "homepage": "https://github.com/BgrDr0p/Node.js#readme"
+}

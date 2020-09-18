@@ -17,4 +17,20 @@ Limites des fonctions callbacks : Logique importante & peu lisible
 Streams permet scinder I/O en séquences asynchrones => optimize temps/ressources
 
 stream readable : Lire gros volumes de données
-stream writable : assembler ptits sources pour les ecrire 
+stream writable : assembler ptits sources pour les ecrire
+---------------------------------------------------------------------------------------------------------------------
+Construire API REST avec Express, MongoDB :
+
+Utilisation de Babel pour passer de ES6 vers ancien JS.
+Mongoose pour faciliter l'accès a une BDD.
+
+Base API REST : 
+ - exécuter des transations avec un serveur avec le protocole HTTP
+ - Get : lire les données
+ - Post : ajouter des données
+ - Put : mettre à jour les données
+ - Delete : supprimer les données
+
+middleware : dans le contexte de serveur Node et Express, fonctions qui ont accès à l'objet de requête et de réponse, donc request et response, dans notre Application Express, peuvent modifier les requêtes, les arrêter, appeler une autre fonction with NEXT
+
+

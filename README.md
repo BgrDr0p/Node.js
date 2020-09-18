@@ -24,7 +24,7 @@ Construire API REST avec Express, MongoDB :
 Utilisation de Babel pour passer de ES6 vers ancien JS.
 Mongoose pour faciliter l'accès a une BDD.
 
-Base API REST : 
+Base API REST avec Postman: 
  - exécuter des transations avec un serveur avec le protocole HTTP
  - Get : lire les données
  - Post : ajouter des données
